@@ -2,6 +2,22 @@
 // To edit a practical, change the text inside the quotes.
 // sample: true means this is sample text, not my final submitted work.
 
+
+export const initialSubjects = [
+  {
+    id: 1,
+    name: "Web Technology - Node.js",
+    code: "WT-NODE",
+    description: "Practical exercises covering Node.js modules, events, functions, file handling, HTTP servers and MySQL connectivity."
+  },
+  {
+    id: 2,
+    name: "Web Technology - ReactJS",
+    code: "WT-REACT",
+    description: "Practical exercises covering React components, state, props, events, forms, hooks and React Router."
+  }
+];
+
 const practicals = [
   {
     id: 1,
